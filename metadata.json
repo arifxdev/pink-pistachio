@@ -1,0 +1,6 @@
+{
+  "name": "Pink Pistachio and Patisserie",
+  "description": "Artisanal Haute Patisserie & Specialty Bakery landing page with interactive dessert showcase, bespoke ordering, and Parisian luxury aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

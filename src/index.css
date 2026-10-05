@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-pink-50: #FFF5F7;
+  --color-pink-100: #FCEBF0;
+  --color-pink-200: #F9D5E0;
+  --color-pink-300: #F4AFC3;
+  --color-pink-400: #EC83A2;
+  --color-pink-500: #DE537E;
+  --color-pink-600: #C73463;
+  --color-pink-700: #A6214B;
+  --color-pink-800: #881C3D;
+  --color-pink-900: #711935;
+  --color-pink-950: #420A1D;
+
+  --color-pistachio-50: #F5FAF3;
+  --color-pistachio-100: #E9F4E5;
+  --color-pistachio-200: #D3E9CC;
+  --color-pistachio-300: #B2D8A7;
+  --color-pistachio-400: #8CC27D;
+  --color-pistachio-500: #6EA95D;
+  --color-pistachio-600: #558A46;
+  --color-pistachio-700: #426C37;
+  --color-pistachio-800: #37562E;
+  --color-pistachio-900: #2E4728;
+  
+  --color-cocoa-900: #381223;
+  --color-cocoa-950: #290B19;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #29121B;
+    background-color: #FFF6F7;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom organic wave SVG masks and smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8A8BA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CF6E89;
+}
+
+/* Polaroids 3D subtle perspective */
+.polaroid-shadow {
+  box-shadow: 0 16px 36px -10px rgba(74, 15, 37, 0.16), 0 0 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.dark-polaroid-shadow {
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.45), 0 0 1px 1px rgba(255, 210, 225, 0.15);
+}
